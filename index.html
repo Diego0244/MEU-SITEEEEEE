@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        /* Container principal */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* Estilo da imagem */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #4CAF50;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        /* Título */
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Parágrafo */
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Botão */
+        .btn {
+            padding: 12px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Imagem de perfil -->
+        <img src="minha_foto.jpg" alt="Minha Foto" class="profile-img">
+
+        <!-- Título -->
+        <h1>Olá, sou Diego</h1>
+
+        <!-- Texto de apresentação -->
+        <p>Sou apaixonado por tecnologia, design e estou aprendendo HTML e CSS para criar sites legais! Fique à vontade para explorar mais sobre meu trabalho e projetos.</p>
+
+        <!-- Botão (opcional) -->
+        <a href="#" class="btn">Saiba Mais</a>
+    </div>
+</body>
+</html>
